@@ -791,10 +791,17 @@ body {
 
 .section--about {
   background-color: var(--color-surface);
+  padding: calc(var(--space-section) * 1.5) 0;
+  text-align: center;
+}
+
+.section--services {
+  padding: calc(var(--space-section) * 1.5) 0;
+  text-align: center;
 }
 
 .section--contact {
-  background-color: var(--color-background);
+  background-color: var(--color-surface);
 }
 
 .section-title {
@@ -967,7 +974,7 @@ body {
   padding: var(--space-32) 0;
   text-align: center;
   border-top: 1px solid var(--color-border);
-  background-color: var(--color-surface);
+  background-color: var(--color-background);
 }
 
 .footer-text {
