@@ -657,15 +657,15 @@ select.form-control {
 /* Custom CSS variables for the earth-tone aesthetic */
 :root {
   /* Override design system colors for earth-tone palette */
-  --color-background: #f9f6f2;
-  --color-surface: #ffffff;
-  --color-text: #3a3433;
-  --color-text-secondary: #6b5b54;
-  --color-primary: #a68c69;
-  --color-primary-hover: #93785a;
-  --color-primary-active: #7f6449;
-  --color-accent: #d4c4b0;
-  --color-border: rgba(106, 91, 84, 0.15);
+  --color-background: #3c5956;
+  --color-surface: #53797e;
+  --color-text: #ffffff;
+  --color-text-secondary: #ffffff;
+  --color-primary: #ffffff;
+  --color-primary-hover: #ffffff;
+  --color-primary-active: #ffffff;
+  --color-accent: #ffffff;
+  --color-border: rgba(255, 255, 255, 0.15);
   
   /* Typography */
   --font-heading: 'Montserrat', var(--font-family-base);
