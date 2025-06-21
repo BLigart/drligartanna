@@ -28,7 +28,7 @@
   --status-bg-opacity: 0.15;
   --status-border-opacity: 0.25;
   --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-  --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  /* --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); */
 
   /* RGB versions for opacity control */
   --color-success-rgb: 33, 128, 141;
@@ -101,7 +101,8 @@
   --container-xl: 1280px;
 }
 
-/* Dark mode colors */
+
+/* Dark mode colors 
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: rgba(31, 33, 33, 1);
@@ -129,7 +130,7 @@
     --color-border-secondary: rgba(119, 124, 124, 0.2);
     --color-select-caret: rgba(245, 245, 245, 0.8);
 
-    /* Common style patterns - updated for dark mode */
+    Common style patterns - updated for dark mode
     --focus-ring: 0 0 0 3px var(--color-focus-ring);
     --focus-outline: 2px solid var(--color-primary);
     --status-bg-opacity: 0.15;
@@ -137,7 +138,7 @@
     --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
-    /* RGB versions for dark mode */
+    RGB versions for dark mode
     --color-success-rgb: 50, 184, 198;
     --color-error-rgb: 255, 84, 89;
     --color-warning-rgb: 230, 129, 97;
@@ -145,7 +146,7 @@
   }
 }
 
-/* Data attribute for manual theme switching */
+Data attribute for manual theme switching
 [data-color-scheme="dark"] {
   --color-background: rgba(31, 33, 33, 1);
   --color-surface: rgba(38, 40, 40, 1);
@@ -169,7 +170,7 @@
   --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1),
     inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   --color-border-secondary: rgba(119, 124, 124, 0.2);
-  --color-select-caret: rgba(245, 245, 245, 0.8);
+  --color-select-caret: rgba(245, 245, 245, 0.8); */
 
   /* Common style patterns - updated for dark mode */
   --focus-ring: 0 0 0 3px var(--color-focus-ring);
@@ -177,13 +178,13 @@
   --status-bg-opacity: 0.15;
   --status-border-opacity: 0.25;
   --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-  --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  /* --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); */
 
-  /* RGB versions for dark mode */
+  /* RGB versions for dark mode 
   --color-success-rgb: 50, 184, 198;
   --color-error-rgb: 255, 84, 89;
   --color-warning-rgb: 230, 129, 97;
-  --color-info-rgb: 167, 169, 169;
+  --color-info-rgb: 167, 169, 169; */
 }
 
 [data-color-scheme="light"] {
@@ -418,17 +419,17 @@ select.form-control {
   padding-right: var(--space-32);
 }
 
-/* Add a dark mode specific caret */
+/* Add a dark mode specific caret
 @media (prefers-color-scheme: dark) {
   select.form-control {
     background-image: var(--select-caret-dark);
   }
 }
 
-/* Also handle data-color-scheme */
+Also handle data-color-scheme
 [data-color-scheme="dark"] select.form-control {
   background-image: var(--select-caret-dark);
-}
+} */
 
 [data-color-scheme="light"] select.form-control {
   background-image: var(--select-caret-light);
@@ -643,10 +644,10 @@ select.form-control {
   outline-offset: 2px;
 }
 
-/* Dark mode specifics */
+/* Dark mode specifics
 [data-color-scheme="dark"] .btn--outline {
   border: 1px solid var(--color-border-secondary);
-}
+} */
 
 @font-face {
   font-family: 'FKGroteskNeue';
@@ -676,7 +677,7 @@ select.form-control {
   --space-content: 40px;
 }
 
-[data-color-scheme="dark"] {
+/* [data-color-scheme="dark"] {
   --color-background: #2a2522;
   --color-surface: #342f2a;
   --color-text: #f5f3f0;
@@ -696,7 +697,7 @@ select.form-control {
     --color-primary-hover: #e0d2c0;
     --color-accent: #a68c69;
   }
-}
+} */
 
 /* Base styles */
 html {
